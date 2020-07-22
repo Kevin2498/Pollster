@@ -25,7 +25,7 @@ SECRET_KEY = 'jzfy9t(nt7wmo#zd1m(&mwzy260(#bl%hcm)y2skw=6x=o%nb7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://pollster-kevin.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['pollster-kevin.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -44,7 +44,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
